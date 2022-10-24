@@ -16,7 +16,7 @@ public class Main {
         Dosen dosen = new Dosen(nama, alamat);
 
         for(int j = 0; j < 3; j++){
-            System.out.print("masukan mata kuliah yang diampu: ");
+            System.out.print("masukan mata kuliah yang diampu dosen: ");
             String matkul = scanner.nextLine();
             dosen.addCourse(matkul);
         }
